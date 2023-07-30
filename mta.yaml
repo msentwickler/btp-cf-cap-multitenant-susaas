@@ -223,7 +223,7 @@ modules:
     properties:
       SBF_BROKER_CREDENTIALS_HASH:  >
         {
-          "broker-user": "<%= susaas-sb-credentials %>"
+          "broker-user": "<%= susaas_sb_credentials %>"
         }
     requires:
       - name: susaas-api-uaa
